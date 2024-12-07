@@ -1,6 +1,4 @@
 # ai-cv-people-detection-and-alarm
-people detection and alarm
-
 
 # Projeto de Visão Computacional
 
@@ -89,6 +87,9 @@ python main.py
 - Para confirmar a área de interesse pressione a tecla 'ESPAÇO'.
 - Ao definir a área de interesse, aparece a mensagem 'Áreas de interesse definidas: + tamanho e posição da área de interesse' no terminal.
 
+  ![Definição da área de interesse](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/sele%C3%A7%C3%A3o-area.jpeg)
+
+
 
 ### Passo 2 - Durante a execução do projeto, você pode:
 
@@ -106,8 +107,12 @@ Não aciona o alarme sonoro e sistema de identificação.
 - Rosto ou pessoa na imagem, nenhuma pessoa ou rosto na área de interesse e vigilância ativa: 
 Não aciona o alarme sonoro e sistema de identificação.
 
+  ![nenhuma pessoa ou rosto na área de interesse e vigilância ativa](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/vigilancia-iniciada-sem-detec%C3%A7%C3%A3o-area.jpeg)
+
 - Rosto ou pessoa na imagem, pessoa ou rosto na área de interesse e vigilância ativa: 
 Aciona o alarme sonoro e sistema de identificação.
+
+  ![pessoa ou rosto na área de interesse e vigilância ativa](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/invas%C3%A3o-detectada.jpeg)
 
 *...: obs: O alarme sonoro e sistema de identificação são acionado quando a borda verde de detecção entra na área de interesse.
 
@@ -115,8 +120,16 @@ Aciona o alarme sonoro e sistema de identificação.
 
 - Cria a pasta invasores se não existir.
 - Registra frame inteiro de imagem do momento da invasão.
+
+ ![Registra frame inteiro de imagem do momento da invasão](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/frame-invas%C3%A3o.jpeg)
+
 - Registra recorte do rosto identificado.
+
+ ![Registra recorte do rosto identificado](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/rosto-invasor.jpeg)
+
 - Registra log com horário, data e número de pessoas invasoras.
+
+ ![Registra log](https://github.com/victorxavieratlas/ai-cv-people-detection-and-alarm/blob/main/public-images/log-invas%C3%A3o.jpeg)
 
 ## Desativação do Ambiente Virtual
 
